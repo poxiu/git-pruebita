@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h2>recomendaciones  de vestimenta climática</h2>
+  <label for="weather">selecciona el tipo de clima de hoy</label>
+  <select id="weather">
+    <option value="">--escoge una opcion--</option>
+    <option value="sunny">soleado</option>
+    <option value="rainy">lluvioso</option>
+    <option value="snowing">nevoso</option>
+    <option value="overcast">Nublado</option>
+  </select>
+  <br>
+  <h3>coloca la temperatura de hoy:</h3>
+  <input type="text" id="num" class="temperatura" placeholder="coloca la temperatura de hoy">
+  <button type="buttom" id="buttom" onclick="escogerClima()">ingresar</button>
+  <p></p>
+
+  <script src="./mensaje.js"></script>
+</body>
+</html>

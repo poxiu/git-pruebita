@@ -1,0 +1,32 @@
+ul{
+    /* outline: 1px solid red; */
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+}
+
+li{
+    /* outline: 1px solid green; */
+    list-style: none;
+    background-color: coral;
+}
+
+ul li:first-child {
+background-color: rgb(74, 212, 143);
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding-left: 10px;
+}
+ul li:first-child a:hover{
+   background-color: antiquewhite;
+}
+
+ul li a:hover {
+    color: rgb(159, 116, 240);
+    background-color: rgb(243, 151, 86);
+}
